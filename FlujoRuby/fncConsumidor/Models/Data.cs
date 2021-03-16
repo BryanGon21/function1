@@ -1,10 +1,10 @@
-﻿namespace ApiProductor.Models
+﻿namespace fncConsumidor.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;
 
     public class Data
-    { 
+    {
         [Key]
         public string NameDevice { get; set; }
 
